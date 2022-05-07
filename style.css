@@ -1,0 +1,528 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2rem;
+
+}
+section .logo img{
+     padding-left: 1rem;
+     width:70%;
+}
+  section .nav-link ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: hsl(238, 22%, 44%);
+    justify-content: center;
+    padding-right: 1rem;
+
+}
+section .nav-link li{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin:4px;
+}
+section .get-started{
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+section .image img{
+     width:90%; 
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+     padding-top: 4.5rem;
+     padding-left: 2rem;
+}
+
+/*section .text{
+    align-items: center;
+    justify-content: center;
+}*/
+section .text h3{
+    color:hsl(245, 84%, 12%);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    text-align: center;
+    padding:2rem 1.5rem 1rem 2rem ;
+}
+section .text p{
+    text-align: center;
+    color : hsl(238, 22%, 44%);
+    padding:0rem 1rem 1rem 1.5rem;
+    font-size: 16px;
+    line-height: 1.3;
+}
+section .input{
+    justify-content: center;
+    flex-wrap:column;
+}
+section .input .mail{
+     width:20rem;
+     padding: .7rem;
+     border-radius: 5px;
+     margin-left: 1.6rem;
+     border-color:hsl(238, 22%, 44%) ;
+     font-size: 14px;
+}
+section .input .mail:hover{
+    border-color: red;
+}
+
+section .input .btn{
+    padding: .7rem;
+    width:20rem;
+    border-radius:5px;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+    color:white;
+    font-weight: 400;
+    border: none;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    background-color:hsl(224, 94%, 58%) ;
+}
+
+#product{
+      background-color: hsl(250, 75%, 98%);
+     margin-top: 7rem;   
+   }
+ 
+  
+
+main  .image   img{
+    width:90%; 
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4.5rem;
+    padding-left: 2rem;
+}
+
+
+
+main   .stay h3{
+    text-align: center;
+    color:hsl(245, 84%, 12%);
+    padding-top:2rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main .stay p {
+   font-size: 15.5px;
+   font-weight: 400;
+   color: hsl(238, 22%, 44%);
+   padding: 1rem 1rem 1rem 1rem;
+   line-height: 1.4;
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+
+summary{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+summary .logo{
+    text-align: center;
+    color:hsl(173, 31%, 68%);
+
+}
+summary .logo p{
+    font-size: 16px;
+    font-weight: 400;
+    gap:1rem
+}
+summary .logo hr{
+      width:170px;
+      margin-left:6.5rem;
+      color:hsl(173, 31%, 68%) ;
+      margin-top:5px;
+    
+}
+
+summary .card{
+   width:19rem;
+   height:11rem;
+   margin-left: 2rem;
+    margin-top: 2rem;
+   background-color: hsl(0, 0%, 100%);
+   box-shadow:0 5px 5px rgba(0,0,0,.2);
+   justify-content: center;
+   border-radius: 6px;
+   font-size: 13px;
+   color: hsl(238, 22%, 44%);
+
+
+}
+summary .card .quote {
+    padding: 1.3rem 1rem 1rem 1rem ;
+    font-weight: 400;
+}
+
+summary .card .name img{
+    object-fit: cover;
+    width: 10%;
+    border-radius:50% ;
+}
+summary .card .name {
+    display: flex;
+    padding-left: 1.3rem ;
+    gap:14px;
+    padding-top: 1rem;
+}
+summary .card .name ul{
+    list-style-type: none;
+
+}
+
+summary .card .name li span{
+    color:hsl(245, 84%, 12%);
+    font-weight: 700;
+}
+
+.details{
+    margin-top: 4rem;
+    height:19rem;
+    background-color:hsl(238, 22%, 44%) ;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 3rem;
+}
+
+
+.details p{
+    padding:1rem 2rem 1rem 2rem;
+    font-weight:400;
+    color:hsl(237, 100%, 96%);
+    line-height: 1.2;
+}
+ .input-2 input{
+     width:15rem;
+     height: 2rem;
+     border-radius: 2px;
+     border:none;
+     padding:1rem;
+     color:hsl(238, 22%, 44%);
+ }
+ .input-2 input:hover{
+     border-color: red;
+
+ }
+ .input-2 .btn{
+    width:15rem;
+    height: 2rem;
+    border-radius: 2px;
+    border:none;
+    color:#fff;
+    background-color:hsl(224, 94%, 58%);
+    margin-top: 1rem;
+ }
+ footer{
+     background-color: hsl(243, 87%, 12%) ; 
+     color: #fff;
+     height:34rem;
+     padding-top: 2rem;
+ }
+ footer .phone .logo svg{
+    padding-left: 1rem;
+     width: 30rem;
+ }
+ footer .phone ul{
+     list-style-type: none;
+     padding-left: 1rem;
+     padding-top: 2rem;
+     line-height: 1.5;
+     
+ }
+ footer .phone li{
+     margin:1rem;
+ }
+ footer .phone li span{
+     margin-right: 1rem;
+ }
+ footer .about ul{
+     padding-left: 2rem;
+     list-style-type: none;
+     line-height: 1.7;
+     padding-top:1rem;
+
+ }
+ footer .terms ul{
+    padding-left: 2rem;
+    list-style-type: none;
+    line-height: 1.7;
+    padding-top:1rem;
+
+}
+footer .icons{
+    padding-left: 7rem;
+    padding-top: 3rem;
+    margin: 1rem;
+
+}
+
+
+.input-2 .btn:hover{
+    background-color: hsl(221, 100%, 71%) ;
+}
+
+section .input .btn:hover{
+    background-color: hsl(221, 100%, 71%) ;
+}
+footer .phone li{
+    margin:1rem;
+}
+footer .terms li:hover{
+    color:hsl(238, 22%, 44%) ;
+    
+}
+footer .about li:hover{
+    color:hsl(238, 22%, 44%) ;
+    
+}
+@media screen and (min-width:800px) {
+    body{
+        height: 100vh;
+        background-color: hsl(0, 0%, 100%);
+    
+        
+    }
+    .nav{
+     
+        padding-top: 3rem;
+    
+    }
+    section .logo img{
+        padding-left: 3rem;
+        width:90%;
+   }
+   section .nav-link li{
+    align-items: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding-right: 4rem;
+}
+ .get-started .image img{
+    float: right;
+    width: 45%;
+    padding-right: 7rem;
+}
+section .text h3{
+    color:hsl(245, 84%, 12%);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.3;
+    text-align: left;
+    padding: 10rem 65rem 1rem 3rem
+  
+}
+section .text p{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    padding: 1rem 60rem 1rem 3rem ;
+}
+section .input .mail{
+    width:16rem;
+    padding-left: .7rem;
+    border-radius: 5px;
+    margin-left: 3rem;
+    border-color: hsl(238, 22%, 44%) ;
+    font-size: 14px;
+}
+section .input .btn{
+   padding: .7rem;
+   width:10rem;
+   border-radius:5px;
+   margin-left: 1.6rem;
+   margin-top: 1rem;
+   color:white;
+   font-weight: 400;
+   border: none;
+   box-shadow:0 10px 30px rgba(0,0,0,.3);
+   background-color:hsl(224, 94%, 58%) ;
+}
+section .input .btn:hover{
+    background-color: hsl(221, 100%, 71%) ;
+}
+
+
+
+#product{
+    /*   background-image: url(./images/bg-curve-desktop.svg);*/
+       background-color: hsl(250, 75%, 98%);
+       background-size: cover;
+       margin-top: 16rem;
+   }
+   
+main  .image   img{
+    width:46%;
+    float: right;
+    padding-right: 3rem;
+}
+
+main   .stay h3{
+    text-align:left;
+    color:hsl(245, 84%, 12%);
+    padding: 4rem 1rem 2rem 2rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main .stay p {
+   font-size: 16px;
+   font-weight: 700;
+   color: hsl(238, 22%, 44%);
+   line-height: 1.4;
+   text-align: left;
+   font-family: 'Open Sans', sans-serif;
+   padding: 0 58rem 2rem 2rem;
+
+}
+summary .logo{
+    text-align: left;
+    padding-left:2rem;
+    color:hsl(173, 31%, 68%);
+}
+summary .logo hr{
+    width:170px;
+    margin-left:.3rem;
+    color:hsl(173, 31%, 68%) ;
+    margin-top:5px;
+  
+}
+summary .card .quote {
+    padding: 1.3rem 2rem 1rem 1rem ;
+    font-weight: 400;
+}
+.details .input-2{
+    float:right;
+    margin-right: 7rem;
+    margin-top: -7rem;
+}
+.input-2 input{
+    width:20rem;
+    height: 2rem;
+    border-radius: 2px;
+    border:none;
+    padding:1rem;
+    color:hsl(238, 22%, 44%);
+}
+.input-2 .btn{
+   width:10rem;
+   height: 2rem;
+   border-radius: 3px;
+   border:none;
+   color:#fff;
+   background-color:hsl(224, 94%, 58%);
+   margin-top: 1rem;
+   margin-right: 10rem;
+}
+.input-2 .btn:hover{
+    background-color: hsl(221, 100%, 71%) ;
+}
+.details h2{
+    text-align: left;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.details p{
+    text-align: left;
+    padding: 1rem 61em 1rem 3rem;
+    line-height: 1.3;
+}
+footer{
+    background-color: hsl(243, 87%, 12%) ; 
+    color: #fff;
+    padding-top: 2rem;
+    display: flex;
+}
+
+footer .phone .logo svg{
+   padding-left: 4rem;
+    width: 30rem;
+}
+footer .phone ul{
+    list-style-type: none;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    line-height: 1.5;
+    
+}
+footer .phone li{
+    margin:1rem;
+}
+footer .phone li:hover{
+    color:hsl(238, 22%, 44%) ;
+    
+}
+footer .phone li span{
+    margin-right: 1rem;
+}
+
+footer .about ul{
+    padding-left: 7rem;
+    list-style-type: none;
+    line-height: 2;
+    padding-top:7rem;
+
+}
+footer .about li:hover{
+    color:hsl(238, 22%, 44%) ;
+    
+}
+footer .terms ul{
+   padding-left: 7rem;
+   list-style-type: none;
+   line-height: 2;
+   padding-top:7rem;
+
+}
+footer .terms li:hover{
+    color:hsl(238, 22%, 44%) ;
+    
+}
+footer .icons{
+   padding-left: 8rem;
+   padding-top: 7rem;
+   margin: 1rem;
+   
+
+}
+
+
+
+
+   
+}
+
+
+
+
+
+
+
